@@ -1,5 +1,51 @@
 # AI Workspace
+AI Workspace
 
+About Me
+
+Name: Inam Ur Rehman
+University: The University of Faisalabad
+Fellowship Track: NLP and AI Agents — Visibility Bots Internship
+
+Career Goals
+
+I want to become an AI Engineer who builds practical, production-ready AI systems, particularly intelligent agents and NLP-driven tools that solve real business problems. My long-term goal is to work on AI products that combine language models with automation, helping companies build smarter, more visible, and more responsive digital systems. I'm especially interested in the intersection of conversational AI and agentic workflows, where AI doesn't just answer questions but actively completes tasks.
+
+Technical Skills
+
+
+Languages: Python, JavaScript, HTML, CSS
+Frameworks/Libraries: FastAPI
+AI/ML: Prompt engineering, working with LLM APIs (Google Gemini), understanding of NLP fundamentals
+Tools: Git, REST APIs, virtual environments, Uvicorn
+Concepts: Client-server architecture, API security (keeping credentials server-side), error handling, environment configuration
+
+
+Learning Goals
+
+
+Build a solid foundation in how AI agents plan, reason, and use tools to complete multi-step tasks.
+Get comfortable designing and deploying full-stack AI applications, not just calling APIs in isolation.
+Deepen my understanding of NLP concepts and how they apply to real-world bots and automation.
+Learn best practices for making AI systems reliable, secure, and easy for others to use.
+Move from building guided projects to independently designing and shipping my own AI tools by the end of the internship.
+
+
+
+A chat interface for talking to an AI model, built from scratch with a Python (FastAPI) backend and a single-file HTML/CSS/JavaScript frontend. It uses Google Gemini's free tier (no credit card required) and keeps your API key safely on the server, never exposed to the browser.
+
+
+What This Project Does
+
+AI Workspace lets you:
+
+
+Chat with Google's Gemini AI model through a clean, ChatGPT-style interface
+Set a custom system prompt to control how the AI behaves
+Use quick-start templates (Summarize Text, Explain Code, Generate Ideas, etc.)
+Switch between light and dark mode
+Export your conversation as a Markdown file
+Get clear, human-readable error messages if something goes wrong (bad API key, rate limits, network issues, etc.)
 A chat interface for talking to an AI model, with a system prompt editor,
 prompt templates, Markdown rendering, and error handling — backed by a small
 FastAPI server that keeps your API key off the client and uses **Google
