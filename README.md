@@ -3,7 +3,9 @@
 ## About Me
 
 Name: Inam Ur Rehman
+
 University: The University of Faisalabad
+
 Fellowship Track: NLP and AI Agents — Visibility Bots Internship
 
 ## Career Goals
