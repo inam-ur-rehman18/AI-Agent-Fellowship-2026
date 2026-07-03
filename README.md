@@ -142,6 +142,43 @@ it, close the editor, and run the script again to start the server.
 | Page loads but Send does nothing | Check the terminal running `python app.py` for errors, and your browser console (F12). |
 | `run.bat` / `run.sh` says "python not found" | Install Python 3.10+ from [python.org](https://python.org) and make sure it's added to PATH. |
 
+### Backend Routes
+
+| Route | Method | What it does |
+|---|---|---|
+| `/health` | GET | Checks if the server is running and whether an API key is configured |
+| `/models` | GET | Returns the list of models shown in the UI dropdown |
+| `/chat` | POST | Sends your conversation to Gemini and returns the AI's reply |
+
+### Model
+
+Uses `gemini-3.5-flash` by default, currently on Google's free tier (free input/output tokens, no credit card, rate-limited rather than metered by cost). Confirm current free-tier models any time at [ai.google.dev/pricing](https://ai.google.dev/gemini-api/docs/pricing).
+
+Only **Gemini** is wired to a real model. Other options shown in the dropdown (GPT-4o Mini, Claude, etc.) are simulated for interface parity only.
+
+---
+
+## Requirements
+
+- Python 3.10 or newer
+- A free Gemini API key from [aistudio.google.com/apikey](https://aistudio.google.com/apikey)
+- Internet access (to reach Google's Gemini API)
+
+---
+
+## Troubleshooting
+
+| Symptom | Likely cause |
+|---|---|
+| "Server is missing GEMINI_API_KEY" | You haven't created `.env`, or it's empty |
+| "Invalid or unauthorized Gemini API key" | The key in `.env` is wrong, or the Generative Language API isn't enabled for it |
+| "Free-tier rate limit exceeded" | You've hit Gemini's per-minute or per-day free quota |
+| "Gemini blocked this request" | The prompt tripped Gemini's safety filters, try rephrasing |
+| "Could not reach the AI provider" | No internet access from the machine running the backend |
+| Page loads but Send does nothing | Check the terminal running `python app.py` for errors, and your browser console (F12) |
+| `run.bat` / `run.sh` says "python not found" | Install Python 3.10+ from [python.org](https://python.org) and make sure it's added to PATH |
+
+---
 ## Customizing the model or output length
 
 Uncomment and edit these in `.env`:
