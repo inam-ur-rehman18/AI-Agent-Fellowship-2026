@@ -1,17 +1,16 @@
 # AI Workspace
-AI Workspace
 
-About Me
+## About Me
 
 Name: Inam Ur Rehman
 University: The University of Faisalabad
 Fellowship Track: NLP and AI Agents — Visibility Bots Internship
 
-Career Goals
+## Career Goals
 
 I want to become an AI Engineer who builds practical, production-ready AI systems, particularly intelligent agents and NLP-driven tools that solve real business problems. My long-term goal is to work on AI products that combine language models with automation, helping companies build smarter, more visible, and more responsive digital systems. I'm especially interested in the intersection of conversational AI and agentic workflows, where AI doesn't just answer questions but actively completes tasks.
 
-Technical Skills
+## Technical Skills
 
 
 Languages: Python, JavaScript, HTML, CSS
@@ -21,7 +20,7 @@ Tools: Git, REST APIs, virtual environments, Uvicorn
 Concepts: Client-server architecture, API security (keeping credentials server-side), error handling, environment configuration
 
 
-Learning Goals
+## Learning Goals
 
 
 Build a solid foundation in how AI agents plan, reason, and use tools to complete multi-step tasks.
@@ -35,9 +34,9 @@ Move from building guided projects to independently designing and shipping my ow
 A chat interface for talking to an AI model, built from scratch with a Python (FastAPI) backend and a single-file HTML/CSS/JavaScript frontend. It uses Google Gemini's free tier (no credit card required) and keeps your API key safely on the server, never exposed to the browser.
 
 
-What This Project Does
+# What This Project Does
 
-AI Workspace lets you:
+### AI Workspace lets you:
 
 
 Chat with Google's Gemini AI model through a clean, ChatGPT-style interface
