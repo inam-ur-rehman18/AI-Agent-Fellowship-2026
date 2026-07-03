@@ -16,9 +16,13 @@ I want to become an AI Engineer who builds practical, production-ready AI system
 
 
 Languages: Python, JavaScript, HTML, CSS
+
 Frameworks/Libraries: FastAPI
+
 AI/ML: Prompt engineering, working with LLM APIs (Google Gemini), understanding of NLP fundamentals
+
 Tools: Git, REST APIs, virtual environments, Uvicorn
+
 Concepts: Client-server architecture, API security (keeping credentials server-side), error handling, environment configuration
 
 
