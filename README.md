@@ -186,3 +186,6 @@ Uncomment and edit these in `.env`:
 GEMINI_MODEL=gemini-3.5-flash
 GEMINI_MAX_OUTPUT_TOKENS=8192
 ```
+## Demo Video
+
+https://youtu.be/xmyI18MztcM?si=8G4xEXXV_3a0KLOa
